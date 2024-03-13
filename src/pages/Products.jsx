@@ -1,6 +1,7 @@
 import React from 'react';
 import Product from '../components/product/Product';
 import { Col, Row } from 'react-bootstrap';
+import Zoom from 'react-reveal/Zoom';
 
 function Products() {
 
@@ -60,7 +61,9 @@ function Products() {
                             products?.length > 0 ?
                                 products.map((item) => (
                                    <Col className='mt-4 mb-4'   lg={3} md={3} sm={6} xs={6}>
+                                    <Zoom>
                                     <Product  data={products}/>
+                                    </Zoom>
                                     </Col>
                                 )) : <p>....</p>
                         }
