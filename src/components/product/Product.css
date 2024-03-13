@@ -1,0 +1,10 @@
+#product-card:hover {
+    background-color: rgb(124, 194, 194);
+    color: white;
+}
+
+#product-card .type:hover{
+    color: red;
+}
+
+

@@ -1,0 +1,10 @@
+#about-top {
+    background-image: url('https://www.plenaire.co/cdn/shop/files/original-PL_website_banners_why_01.1-102026-2.png?v=1686563718&width=1800');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:30rem;
+}
+#abt-ext{
+    font-size: 5rem;
+}
