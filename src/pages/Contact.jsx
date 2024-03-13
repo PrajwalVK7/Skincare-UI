@@ -7,7 +7,10 @@ function Contact() {
     return (
         <>
             <div className='container mt-5 mb-5' style={{marginTop:'120px'}}>
-                <div className='d-flex justify-content-evenly' style={{marginTop:'120px'}}>
+                <div style={{height:'5rem'}}>
+
+                </div>
+                <div className='d-flex justify-content-evenly mt-4' style={{marginTop:'180px',fontSize:'30px'}}>
                     <i class="fa-solid fa-phone"></i>
                     <i class="fa-solid fa-envelope"></i>
                     <i class="fa-brands fa-google"></i>
@@ -23,7 +26,7 @@ function Contact() {
                 </Row>
                 <Row>
                     <Col lg={6}>
-                        <Form>
+                        <Form className='shadow form rounded bg-secondary p-5'>
                             <Form.Group className="mb-3" controlId="formGroupEmail">
                                 <Form.Label>Name</Form.Label>
                                 <Form.Control type="text" placeholder="Enter Name" />
@@ -40,7 +43,7 @@ function Contact() {
                             <button className='btn btn-primary'>Submit</button>
                         </Form>
                     </Col>
-                    <Col lg={6} className='d-flex justify-content-center align-item-center'>
+                    <Col lg={6} className='d-flex rounded justify-content-center align-item-center bg-secomdary'>
                         <Lottie className="mb-5 mt-2"  animationData={animation} />
                     
                     </Col>
